@@ -1,0 +1,2 @@
+# @rappopo/cuk-static
+
