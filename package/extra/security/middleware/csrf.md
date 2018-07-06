@@ -1,6 +1,6 @@
 # csrf
 
-This middleware is a tiny wrapper for [Koa CSRF](https://github.com/koajs/csrf): it provides CSRF support for your application.
+This middleware is a tiny wrapper around [Koa CSRF](https://github.com/koajs/csrf): it provides CSRF support for your application.
 
 ### Usage
 
@@ -35,11 +35,11 @@ By default, the following options serve as default:
 }
 ```
 
-To change globally, edit the configuration in security.json in your config directory \(&lt;DDIR&gt;/config\) as shown below:
+To change globally, edit the configuration in **security.json** in your config directory \(&lt;DDIR&gt;/config\) as shown below:
 
 ```javascript
 {
-  "cuks":
+  "cuks": {
     "http": {
       "middleware": {
         "csrf": {
@@ -51,5 +51,5 @@ To change globally, edit the configuration in security.json in your config direc
 }
 ```
 
-To change options specifically \(per route call\), please [read here](../../../common/http/).
+To change options individually \(per route call\), please [read here](../../../common/http/).
 
