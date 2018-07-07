@@ -2,6 +2,8 @@
 
 This middleware is a tiny wrapper around [Koa CSRF](https://github.com/koajs/csrf): it provides CSRF support for your application.
 
+View
+
 ### Usage
 
 Inside your CUK Route file:
@@ -18,7 +20,7 @@ return {
 ...
 ```
 
-And don't forget to put CSRF token on your form template as shown [here](https://github.com/koajs/csrf)
+And don't forget to put CSRF token on your form template as [shown here](../view-globals/csrftoken.md#usage)
 
 ### Options
 

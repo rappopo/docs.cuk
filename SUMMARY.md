@@ -112,6 +112,8 @@
         * [helmetNoSniff](package/extra/security/middleware/helmet-no-sniff.md)
         * [helmetReferrerPolicy](package/extra/security/middleware/helmet-referrer-policy.md)
         * [helmetXssFilter](package/extra/security/middleware/helmet-xss-filter.md)
+      * [View Globals](package/extra/security/view-globals/README.md)
+        * [csrfToken](package/extra/security/view-globals/csrftoken.md)
     * [@rappopo/cuk-site](package/extra/site.md)
     * [@rappopo/cuk-task](package/extra/task.md)
 * [FAQ](faq.md)
