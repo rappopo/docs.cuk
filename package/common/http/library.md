@@ -4,10 +4,15 @@ description: Exported libraries
 
 # Library
 
-The following libraries are automatically exported and will be available to use throughout your app like this:
+The following libraries are automatically exported and will be available to use throughout your app:
 
 ```javascript
 const { app, koaMount } = cuk.http.lib
+const hello = async function(ctx, next) {
+  await next()
+  ctx.body = 'Hello'
+}
+app.use(koaMount('/hello', hello))
 ```
 
 | **Name:** | **Initialized with:** |

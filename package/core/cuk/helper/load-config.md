@@ -37,7 +37,7 @@ module.exports = function(cuk) {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Some packages might extend these file formats, \(e.g: [@rappopo/cuk-util](../../../extra/util.md) add two supported format: `yml` & `xml`\)
+Some packages might extend these file formats, \(e.g: [@rappopo/cuk-util](../../../extra/util/) add two supported format: `yml` & `xml`\)
 
 ### Result
 
