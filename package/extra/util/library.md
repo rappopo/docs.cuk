@@ -8,3 +8,13 @@ The following libraries are automatically exported and will be available to use 
 | `yaml` | `require('js-yaml')` |
 | `coBody` | `require('co-body')` |
 
+Example:
+
+```javascript
+...
+const { fs } = cuk.lib
+const { yaml } = cuk.pkg.util.lib
+let result = yaml.safeLoad(fs.readFileSync('/my/yaml/file.yml'))
+...
+```
+
