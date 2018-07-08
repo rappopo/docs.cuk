@@ -89,6 +89,7 @@
         * [crudUpdate](package/common/rest/helper/crud-update.md)
         * [write](package/common/rest/helper/write.md)
     * [@rappopo/cuk-route](package/common/route/README.md)
+      * [Configuration](package/common/route/configuration.md)
       * [Route File](package/common/route/route-file.md)
     * [@rappopo/cuk-static](package/common/static.md)
     * [@rappopo/cuk-view](package/common/view.md)
