@@ -12,7 +12,7 @@ Example:
 
 ```javascript
 ...
-const { fs } = cuk.lib
+const { fs } = cuk.pkg.core.lib
 const { yaml } = cuk.pkg.util.lib
 let result = yaml.safeLoad(fs.readFileSync('/my/yaml/file.yml'))
 ...

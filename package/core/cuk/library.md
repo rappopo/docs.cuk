@@ -7,7 +7,7 @@ description: Exported libraries
 The following libraries are automatically exported and will be available to use throughout your app like this:
 
 ```javascript
-const { _, helper, path } = cuk.lib
+const { _, helper, path } = cuk.pkg.core.lib
 ```
 
 | **Name** | **Originally initialized** |
