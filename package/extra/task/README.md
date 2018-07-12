@@ -1,2 +1,0 @@
-# @rappopo/cuk-task
-
