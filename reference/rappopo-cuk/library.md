@@ -4,13 +4,9 @@ description: Exported libraries
 
 # Library
 
-The following libraries are automatically exported and will be available to use throughout your app like this:
+The following libraries are automatically exported and will be available to use throughout your app:
 
-```javascript
-const { _, helper, path } = cuk.pkg.core.lib
-```
-
-| **Name** | **Originally initialized** |
+| **Name:** | **Initialized:** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `_` | `require('lodash')` |
 | `debug` | `require('debug')` |
@@ -19,4 +15,13 @@ const { _, helper, path } = cuk.pkg.core.lib
 | `moment` | `require('moment')` |
 | `path` | `require('path')` |
 | `util` | `require('util')` |
+
+#### Usage:
+
+```javascript
+...
+const { _, helper, path } = cuk.pkg.core.lib
+let myPath = path.join(__dirname, 'my', 'file.js')
+...
+```
 
