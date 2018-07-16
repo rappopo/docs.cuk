@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="http://mydomain.com" path="/api/auth/jwt.:ext" %}
 {% api-method-summary %}
-Create new JSON Web Token
+create:auth:/jwt
 {% endapi-method-summary %}
 
 {% api-method-description %}

@@ -11,7 +11,7 @@ The following libraries are automatically exported and will be available to use 
 | `jwt` | `require('jsonwebtoken')` |
 | `bcrypt` | `require('bcrypt')` |
 
-Example:
+#### Usage
 
 ```javascript
 const { jwt } = cuk.pkg.auth.lib
