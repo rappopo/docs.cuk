@@ -1,6 +1,6 @@
 # Middleware
 
-### basic
+### auth:basic
 
 {% tabs %}
 {% tab title="Description" %}
@@ -43,7 +43,7 @@ module.exports =function(cuk) {
 {% endtab %}
 {% endtabs %}
 
-### jwt
+### auth:jwt
 
 {% tabs %}
 {% tab title="Description" %}
@@ -86,7 +86,7 @@ module.exports =function(cuk) {
 {% endtab %}
 {% endtabs %}
 
-### checkPoint
+### auth:checkPoint
 
 {% tabs %}
 {% tab title="Description" %}
