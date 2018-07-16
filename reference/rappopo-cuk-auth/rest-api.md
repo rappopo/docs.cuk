@@ -1,6 +1,6 @@
 # REST Api
 
-{% api-method method="post" host="/api/auth/jwt" path="" %}
+{% api-method method="post" host="http://mydomain.com" path="/api/auth/jwt.:ext" %}
 {% api-method-summary %}
 Create new JSON Web Token
 {% endapi-method-summary %}
@@ -11,9 +11,21 @@ Create new JSON Web Token
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="ext" type="string" required=true %}
+Result format
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="lang" type="string" required=false %}
+Language
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+
 {% api-method-body-parameters %}
 {% api-method-parameter name="username" type="string" required=true %}
-Username
+User login
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="passwd" type="string" required=true %}
@@ -34,9 +46,12 @@ User password
   "data": {
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdF9uYW1lIjoiSmFtZXMiLCJsYXN0X25hbWUiOiJCb25kIn0.kDGk8rSdnueu9bNofaJbGlIXHA3tDmWrtv-7161XX-Q"
   }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
