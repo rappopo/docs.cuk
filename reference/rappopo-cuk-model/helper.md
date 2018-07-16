@@ -9,11 +9,11 @@ helper('model:find')(name, opts)
 ```
 {% endtab %}
 
-{% tab title="Arguments" %}
+{% tab title="Parameters" %}
 
 {% endtab %}
 
-{% tab title="Returns" %}
+{% tab title="Return" %}
 
 {% endtab %}
 {% endtabs %}
@@ -26,6 +26,14 @@ helper('model:find')(name, opts)
 helper('model:findOne')(name, id, opts)
 ```
 {% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### model:create
@@ -35,6 +43,14 @@ helper('model:findOne')(name, id, opts)
 ```javascript
 helper('model:create')(name, body, opts)
 ```
+{% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
 {% endtab %}
 {% endtabs %}
 
@@ -46,6 +62,14 @@ helper('model:create')(name, body, opts)
 helper('model:update')(name, id, body, opts)
 ```
 {% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### model:remove
@@ -55,6 +79,14 @@ helper('model:update')(name, id, body, opts)
 ```javascript
 helper('model:remove')(name, id, opts)
 ```
+{% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
 {% endtab %}
 {% endtabs %}
 
@@ -66,6 +98,14 @@ helper('model:remove')(name, id, opts)
 helper('model:bulkCreate')(name, body, opts)
 ```
 {% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### model:bulkUpdate
@@ -75,6 +115,14 @@ helper('model:bulkCreate')(name, body, opts)
 ```javascript
 helper('model:bulkUpdate')(name, body, opts)
 ```
+{% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
 {% endtab %}
 {% endtabs %}
 
@@ -86,6 +134,14 @@ helper('model:bulkUpdate')(name, body, opts)
 helper('model:bulkRemove')(name, body, opts)
 ```
 {% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### model:copyFrom
@@ -95,6 +151,14 @@ helper('model:bulkRemove')(name, body, opts)
 ```javascript
 helper('model:copyFrom')(name, src, opts)
 ```
+{% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
 {% endtab %}
 {% endtabs %}
 
@@ -106,6 +170,14 @@ helper('model:copyFrom')(name, src, opts)
 helper('model:copyTo')(name, dest, opts)
 ```
 {% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### model:get
@@ -115,11 +187,11 @@ helper('model:copyTo')(name, dest, opts)
 
 {% endtab %}
 
-{% tab title="Arguments" %}
+{% tab title="Parameters" %}
 
 {% endtab %}
 
-{% tab title="Returns" %}
+{% tab title="Return" %}
 Object of the following convenient proxy helpers & instance or throws error if something isn't right:
 
 * `dab`: convenient helper of [getDab](helper.md#model-getdab)
@@ -175,12 +247,28 @@ model.create({ first_name: 'James', last_name: 'Blondy' })
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### model:getDab
 
 {% tabs %}
 {% tab title="Description" %}
+
+{% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
 
 {% endtab %}
 {% endtabs %}
@@ -191,12 +279,28 @@ model.create({ first_name: 'James', last_name: 'Blondy' })
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### model:getSchema
 
 {% tabs %}
 {% tab title="Description" %}
+
+{% endtab %}
+
+{% tab title="Parameters" %}
+
+{% endtab %}
+
+{% tab title="Return" %}
 
 {% endtab %}
 {% endtabs %}

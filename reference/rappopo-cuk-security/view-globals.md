@@ -1,9 +1,13 @@
-# csrfToken
+# View Globals
 
-This global variable is injected into View Engine so you could use it any time anywhere inside your template easily.
+### csrfToken
 
-### Usage
+{% tabs %}
+{% tab title="Description" %}
+**csrfToken** is a global variable injected into View Engine. It sole purpose is to provide you easy access of CSRF token inside your view template.
+{% endtab %}
 
+{% tab title="Usage" %}
 Your route file:
 
 {% code-tabs %}
@@ -36,4 +40,8 @@ Your view template:
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
+
+
 
