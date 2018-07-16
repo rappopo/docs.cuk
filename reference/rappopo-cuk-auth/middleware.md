@@ -2,9 +2,23 @@
 
 ### auth:basic
 
+Basic authentication middleware
+
 {% tabs %}
 {% tab title="Description" %}
+This middleware reads authorization header. If empty, it simply skips to the next middleware. 
 
+If found, it'll look for user with matched credential passed by authorization header. If a user is found and not temporarily disabled, app context will be filled with stuffs like this:
+
+```javascript
+ctx.state.auth = {
+  method: 'basic',
+  user: {
+    _id: '<my_id'>
+    ...
+  }
+}
+```
 {% endtab %}
 
 {% tab title="Example" %}
@@ -47,7 +61,9 @@ module.exports =function(cuk) {
 
 {% tabs %}
 {% tab title="Description" %}
+This middleware reads authorization header and looking for JWT token.
 
+If found, token payload will be decoded and matched user will be looked up in user database. If a user is found and not temporarily disabled, app context will be filled with stuffs like above
 {% endtab %}
 
 {% tab title="Example" %}
