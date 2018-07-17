@@ -9,11 +9,11 @@ helper('log:get')(name)
 ```
 {% endtab %}
 
-{% tab title="Arguments" %}
+{% tab title="Parameters" %}
 * `name`: must be in `<pkgId>:<itemName>` syntax. Required.
 {% endtab %}
 
-{% tab title="Returns" %}
+{% tab title="Return" %}
 The matched winston logger is returned.
 {% endtab %}
 {% endtabs %}
@@ -40,12 +40,12 @@ Log file will be saved in your data directory:
 Log file will also be automatically rotated every day.
 {% endtab %}
 
-{% tab title="Arguments" %}
+{% tab title="Parameters" %}
 * `name`: must be in `<pkgId>:<itemName>` syntax. Required.
 * `opts`: the same winston transport options as in config file. Optional.
 {% endtab %}
 
-{% tab title="Returns" %}
+{% tab title="Return" %}
 Instance of winston logger.
 {% endtab %}
 {% endtabs %}

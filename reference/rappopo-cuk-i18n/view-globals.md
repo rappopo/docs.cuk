@@ -1,4 +1,2 @@
 # View Globals
 
-
-

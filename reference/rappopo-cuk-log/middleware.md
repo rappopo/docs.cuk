@@ -6,12 +6,20 @@
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Usage" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### log:combinedMultisite
 
 {% tabs %}
 {% tab title="Description" %}
+
+{% endtab %}
+
+{% tab title="Usage" %}
 
 {% endtab %}
 {% endtabs %}
@@ -22,6 +30,10 @@
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Usage" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### log:commonMultisite
@@ -30,12 +42,20 @@
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Usage" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### log:json
 
 {% tabs %}
 {% tab title="Description" %}
+
+{% endtab %}
+
+{% tab title="Usage" %}
 
 {% endtab %}
 {% endtabs %}

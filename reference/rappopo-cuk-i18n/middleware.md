@@ -6,5 +6,9 @@
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Usage" %}
+
+{% endtab %}
 {% endtabs %}
 

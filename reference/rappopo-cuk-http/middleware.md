@@ -7,7 +7,7 @@
 
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="Usage" %}
 
 {% endtab %}
 {% endtabs %}
@@ -18,12 +18,20 @@
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Usage" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### http:etag
 
 {% tabs %}
 {% tab title="Description" %}
+
+{% endtab %}
+
+{% tab title="Usage" %}
 
 {% endtab %}
 {% endtabs %}
@@ -34,12 +42,20 @@
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Usage" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### http:responseTime
 
 {% tabs %}
 {% tab title="Description" %}
+
+{% endtab %}
+
+{% tab title="Usage" %}
 
 {% endtab %}
 {% endtabs %}
@@ -50,12 +66,20 @@
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Usage" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### http:uploadArray
 
 {% tabs %}
 {% tab title="Description" %}
+
+{% endtab %}
+
+{% tab title="Usage" %}
 
 {% endtab %}
 {% endtabs %}
@@ -66,12 +90,20 @@
 {% tab title="Description" %}
 
 {% endtab %}
+
+{% tab title="Usage" %}
+
+{% endtab %}
 {% endtabs %}
 
 ### http:uploadSingle
 
 {% tabs %}
 {% tab title="Description" %}
+
+{% endtab %}
+
+{% tab title="Usage" %}
 
 {% endtab %}
 {% endtabs %}

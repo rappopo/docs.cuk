@@ -9,11 +9,11 @@ helper('http:middleware')(name, opts)
 ```
 {% endtab %}
 
-{% tab title="Arguments" %}
+{% tab title="Parameters" %}
 
 {% endtab %}
 
-{% tab title="Returns" %}
+{% tab title="Return" %}
 
 {% endtab %}
 {% endtabs %}
@@ -27,11 +27,11 @@ helper('http:composeMiddleware')(names)
 ```
 {% endtab %}
 
-{% tab title="Arguments" %}
+{% tab title="Parameters" %}
 
 {% endtab %}
 
-{% tab title="Returns" %}
+{% tab title="Return" %}
 
 {% endtab %}
 {% endtabs %}
