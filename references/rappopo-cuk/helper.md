@@ -4,7 +4,7 @@ description: Exported helper functions
 
 # Helper
 
-### core:bootConfig {#auth-makejwt}
+### core:bootConfig {#core-bootconfig}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -22,7 +22,7 @@ helper('core:bootConfig')(basename)
 {% endtab %}
 {% endtabs %}
 
-### core:bootDeep {#auth-makejwt}
+### core:bootDeep {#core-bootdeep}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -40,7 +40,7 @@ helper('core:bootDeep')(opts)
 {% endtab %}
 {% endtabs %}
 
-### core:bootFlat {#auth-makejwt}
+### core:bootFlat {#core-bootflat}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -58,7 +58,7 @@ helper('core:bootFlat')(basename)
 {% endtab %}
 {% endtabs %}
 
-### core:bootInfo {#auth-makejwt}
+### core:bootInfo {#core-bootinfo}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -76,7 +76,7 @@ helper('core:bootInfo')(text)
 {% endtab %}
 {% endtabs %}
 
-### core:configFileExt {#auth-makejwt}
+### core:configFileExt {#core-configfileext}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -101,7 +101,7 @@ console.log(supported)
 {% endtab %}
 {% endtabs %}
 
-### core:configLoad {#auth-makejwt}
+### core:configLoad {#core-configload}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -141,7 +141,7 @@ This function helper returns a Promise. If an error occurs, it will be silently 
 {% endtab %}
 {% endtabs %}
 
-### core:makeChoices {#auth-makejwt}
+### core:makeChoices {#core-makechoices}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -177,7 +177,7 @@ helper('core:bootConfig')(basename)
 {% endtab %}
 {% endtabs %}
 
-### core:makeId {#auth-makejwt}
+### core:makeId {#core-makeid}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -249,7 +249,7 @@ helper('core:bootConfig')(basename)
 {% endtab %}
 {% endtabs %}
 
-### core:pkgs {#auth-makejwt}
+### core:pkgs {#core-pkgs}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -267,7 +267,7 @@ helper('core:pkgs')(filter)
 {% endtab %}
 {% endtabs %}
 
-### core:pkg {#auth-makejwt}
+### core:pkg {#core-pkg}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -285,7 +285,7 @@ helper('core:pkg')(basename)
 {% endtab %}
 {% endtabs %}
 
-### core:parseUnitOfTime {#auth-makejwt}
+### core:parseUnitOfTime {#core-parseunitoftime}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -303,7 +303,7 @@ helper('core:bootConfig')(basename)
 {% endtab %}
 {% endtabs %}
 
-### core:collSortBy {#auth-makejwt}
+### core:collSortBy {#core-collsortby}
 
 {% tabs %}
 {% tab title="Description" %}
@@ -321,7 +321,7 @@ helper('core:bootConfig')(basename)
 {% endtab %}
 {% endtabs %}
 
-### core:makeError {#auth-makejwt}
+### core:makeError {#core-makeerror}
 
 {% tabs %}
 {% tab title="Description" %}
