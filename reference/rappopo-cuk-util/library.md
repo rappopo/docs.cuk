@@ -8,7 +8,7 @@ The following libraries are automatically exported and will be available to use 
 | `yaml` | `require('js-yaml')` |
 | `coBody` | `require('co-body')` |
 
-Example:
+### Usage
 
 ```javascript
 ...
