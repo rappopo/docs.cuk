@@ -1,7 +1,3 @@
----
-description: Function helpers
----
-
 # Helper
 
 ### auth:makeJwt

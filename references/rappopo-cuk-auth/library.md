@@ -1,7 +1,3 @@
----
-description: Exported libraries
----
-
 # Library
 
 The following libraries are automatically exported and will be available to use throughout your app:

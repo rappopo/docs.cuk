@@ -76,12 +76,37 @@ helper('core:bootInfo')(text)
 {% endtab %}
 {% endtabs %}
 
-### core:loadConfig {#auth-makejwt}
+### core:configFileExt {#auth-makejwt}
 
 {% tabs %}
 {% tab title="Description" %}
 ```javascript
-helper('core:loadConfig')(dir, name)
+helper('core:configFileExt')()
+```
+{% endtab %}
+
+{% tab title="Parameters" %}
+None
+{% endtab %}
+
+{% tab title="Return" %}
+Return an array of supported file extension:
+
+```javascript
+...
+const supported = helper('core:configFileExt')()
+console.log(supported)
+// displays: [".js", ".json"]
+```
+{% endtab %}
+{% endtabs %}
+
+### core:configLoad {#auth-makejwt}
+
+{% tabs %}
+{% tab title="Description" %}
+```javascript
+helper('core:configLoad')(dir, name)
 ```
 
 `name` could be the _basename_ of the configuration file, or a directory name which hold the actual configuration file.
